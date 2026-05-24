@@ -1,0 +1,37 @@
+body {
+    background-color: #272727;
+    display:flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+    font-size:1.2em;
+}
+
+header, 
+footer {
+    background-color: rgb(90, 165, 90);
+    border:none;
+    margin:0;
+    padding:0;
+    height:15vh;
+    padding:0 20px;
+}
+
+.vertically-aligned-elems {
+    display:flex;
+    flex-direction: row;
+    height:70vh;
+}
+
+.nav, 
+.aside {
+    background-color:rgb(240, 225, 205);
+    flex-basis: 15%;
+    padding:0 20px;
+}
+
+.article {
+    background-color: beige;
+    flex-basis: 70%;
+    padding:0 20px;
+}
